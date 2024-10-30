@@ -1,0 +1,275 @@
+.kuware-container{
+    width: 260px;
+    color: #000 !important;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    z-index: 9999999;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+    left: 0px;
+}
+a:hover g{
+    fill:#fff;
+}
+.kuware-wrapper{
+    background: #f8f8f8;
+    display: none;
+    overflow-y: auto;
+    white-space: nowrap;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.kuware-section-cotrast {
+    float:left;
+    width:100%;
+}
+.kuware-section-cotrast a{
+    background: #444;
+    height: 2px;
+    padding: 20px 15px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    color: #fff;
+    line-height: 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid#555;
+}
+.kuware-section-cotrast a:hover{
+    text-decoration: none;
+}
+.kuware-section-title svg{
+    margin-left: 4px;
+    fill: #fff;
+    float: left;
+}
+.kuware-section-title path{
+    fill: #fff;
+}
+.kuware-section-title a{
+    text-decoration: none;
+    background: #444;
+    padding: 8px 13px;
+    color: #fff !important;
+    width: 47%;
+    height: 32px;
+    line-height: 16px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+}
+.close-btn{
+    float:left;
+}
+.close-btn svg{
+    width: 10px;
+    height: 15px;
+    float: left;
+}
+.reset-btn{
+    float:right;
+    width: 20px;
+    height: 20px;
+}
+.reset-btn svg{
+    float: left;
+    width: 16px;
+    height: 16px;
+}
+.accessbility-btn{
+    border: 0px;
+    position: absolute;
+    /* right: -54px;*/
+    cursor: pointer;
+    padding: 3px 6px;
+    z-index: 9999;
+    background: #cc6600;
+    color: #fff;
+}
+.admin-accessbility-btn{
+    top: 32px;
+}
+.accessbility-btn svg{
+    width:30px;
+    height:30px;
+    fill:#fff;
+}
+.accessbility-btn path,.accessbility-btn circle{
+     fill: #fff;
+}
+.ku-tool{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    color: #444;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0px;
+}
+.close-btn:hover, .reset-btn{
+    color:#fff;
+    text-decoration: none;
+}
+.kuware-section-top{
+    float:left;
+    width:100%;
+}
+.ku-label{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px!important;
+    color: #333;
+    font-weight: 400;
+    margin: -3px 0px 0px 0px;
+    float: left;
+    width: 100%;
+}
+.kuware-section h4{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.kuware-section h2{
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 19px;
+    margin-top: 0px;
+}
+.kuware-inr-left{
+    padding:7px;
+}
+.kuware-section-inr{
+    float:left;
+    width:100%;
+    text-align: center;
+    padding-bottom: 4px;
+}
+.btn-left{
+    float:left;
+}
+.btn-right{
+    float:right;
+}
+.ku-btn{
+    width: 48%;
+    height: 36px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 0px;
+    border: 2px solid#ddd;
+    background: #fff;
+    color: #333 !important;
+    padding: 2px 4px;
+    font-family: 'Open Sans', sans-serif !important;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+.ku-btn:hover{
+    text-decoration: none;
+}
+.load-btn{
+    width: 64%;
+    float: none;
+    margin: 0 auto;
+}
+.ku-btn svg{
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin-top: 3px;
+}
+.ku-btn:hover {
+    border: 2px solid#cc6600;
+    background: #cc6600;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    color: #fff;
+}
+.kuware-active {
+    border: 2px solid#cc6600;
+    background: #cc6600;
+    color: #fff;
+}   
+.kuware-active svg path{
+    fill:#fff!important;
+}
+.kuware-active circle{
+    fill:#fff!important;
+}
+.kuware-active path{
+    fill:#fff!important;
+}
+.kuware-active:hover path{
+    fill:#fff!important;
+}
+.kuware-section{
+    padding: 0px 5px;
+    float: left;
+    width: 100%;
+    margin-top: 4px;
+}
+.btn-align{
+    font-size:13px;
+}
+.kuware-bg-color{
+    float: left;
+    width: 100%;
+}
+a:hover path{
+    fill:#fff;
+}
+a:hover svg{
+    fill:#fff;
+}
+.kuware-bg-color:nth-of-type(even){
+    background: #eee;
+}
+.kuware-bg-color:nth-of-type(odd){
+    background: #f8f8f8;
+}
+.kuware-active-contrast{
+    border: 2px solid#cc6600!important;
+}
+.ku-body-align-left .ku-body-style {
+    text-align: left!important;
+}
+.ku-body-align-right .ku-body-style {
+    text-align: right!important;
+}
+/*body.ku-body-align-right * {
+    text-align: right!important;
+}*/
+.ku-body-cognitive-load .ku-body-style a {
+    text-decoration: none;
+    background: linear-gradient(to right,#cc6600 25%,#3be420 25%,#3be420 50%,#474df4 50%,#7277fd 75%,#fff708 75%) left bottom no-repeat;
+    background-size: 100% 2px;
+}
+.footer{
+        position: fixed;
+    bottom: 0px;
+    width: 260px;
+    background: #333;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.footer p{
+    margin:0px;
+}
+.footer {
+    padding:5px;
+}

@@ -1,0 +1,61 @@
+#ktat_notification {
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  max-width: 200px;
+}
+#ktat_notification {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  width: 20%;
+  z-index: 105;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff7800;
+  padding: 5px;
+  display: none;
+}
+#ktat_notification span.ktat_dismiss {
+  border: 2px solid #fff;
+  padding: 0 5px;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+}
+#ktat_notification a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@keyframes ktat_loading {
+  from {
+    left: -200px;
+    width: 30%;
+  }
+  50% {
+    width: 30%;
+  }
+  70% {
+    width: 70%;
+  }
+  80% {
+    left: 50%;
+  }
+  95% {
+    left: 120%;
+  }
+  to {
+    left: 100%;
+  }
+}
+.asItemDetail {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 15px;
+  margin: 15px 10px 10px 0;
+}
